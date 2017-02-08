@@ -1,10 +1,10 @@
 {
-  "name": "comp1073-assignment01",
+  "name": "comp1073-assignment02",
   "homepage": "https://github.com/YutaImaizumi/myportfolio",
   "authors": [
     "Yuta Imaizumi <atamatock@gmail.com>"
   ],
-  "description": "comp1073 assignment01 mini portfolio site",
+  "description": "comp1073 assignment02 mini portfolio site - Contact Page Update",
   "main": "",
   "keywords": [
     "javascript"
