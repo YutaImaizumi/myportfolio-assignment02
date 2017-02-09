@@ -132,6 +132,11 @@ switch (document.title) {
                 event.preventDefault();
             });
 
+            console.info('Name: ${document.Name}');
+            console.info('Mail: ${document.Mail}');
+            console.info('Tel: ${document.Tel}');
+            console.info('Message: ${document.Message}');
+
         
         })();
 
