@@ -1,4 +1,4 @@
-/* This is my original CSS data of whole pages. 
+/* This is my original CSS data of whole pages (Assignment 2). 
     File name : app.css
     Author's name : Yuta Imaizumi #200333869
     Web site name : Yuta Imaizumi Portfolio */
@@ -53,6 +53,11 @@ p {
     margin-top: 20px;
     margin-bottom: 50px;
     font-family: Helvetica, arial, sans-serif;
+}
+
+#footerToBottom {
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
 }
 
 #container { 

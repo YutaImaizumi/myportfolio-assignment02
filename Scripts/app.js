@@ -6,6 +6,8 @@
 
 switch (document.title) {
 
+    //index page start
+
     case "Yuta Imaizumi Portfolio | Home":
 
         (function(){
@@ -54,6 +56,8 @@ switch (document.title) {
 
     break;
 
+    // works page start
+
     case "Yuta Imaizumi Portfolio | Works":
 
         (function(){
@@ -94,6 +98,8 @@ switch (document.title) {
 
     break;
 
+    // contact page start
+
     case "Yuta Imaizumi Portfolio | Contact":
 
         (function(){
@@ -113,6 +119,19 @@ switch (document.title) {
             var mandatory = document.getElementById("mandatory");
             var contentMandatory = "Please feel free to contact me for any questions! ( *... Mandatory)";
             mandatory.textContent = contentMandatory;
+
+            // Form data store in variables
+
+            let Name = document.getElementById("Name");
+            let Mail = document.getElementById("Mail");
+            let Tel = document.getElementById("Tel");
+            let Message = document.getElementById("Message");
+            let SendButton = document.getElementById("SendButton");
+
+            SendButton.addEventListener("click", function(event){
+                event.preventDefault();
+            });
+
         
         })();
 
