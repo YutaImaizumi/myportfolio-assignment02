@@ -120,23 +120,23 @@ switch (document.title) {
             var contentMandatory = "Please feel free to contact me for any questions! ( *... Mandatory)";
             mandatory.textContent = contentMandatory;
 
-            // Form data store in variables
-
-            let Name = document.getElementById("Name");
-            let Mail = document.getElementById("Mail");
-            let Tel = document.getElementById("Tel");
-            let Message = document.getElementById("Message");
-            let SendButton = document.getElementById("SendButton");
-
+            // Set event button 
             SendButton.addEventListener("click", function(event){
                 event.preventDefault();
+            
+            // Form data store in variables
+            // (I used .value to get the input value of the form ... but is that correct? Are there any other way?? 2017.02.10)
+            let Name = document.getElementById("Name").value;
+            let Mail = document.getElementById("Mail").value;
+            let Tel = document.getElementById("Tel").value;
+            let Message = document.getElementById("Message").value;
+            // let SendButton = document.getElementById("SendButton");
+
+            console.info("Name: " , Name);
+            console.info("Mail: " , Mail);
+            console.info("Tel: " , Tel);
+            console.info("Message: " , Message);
             });
-
-            // console.info("Name: " + document.Name); これじゃない！どうすればいいんだろうね？？？
-            // console.info("Mail: " + document.Mail);
-            // console.info("Tel: " + document.Tel);
-            // console.info("Message: " + document.Message);
-
         
         })();
 
